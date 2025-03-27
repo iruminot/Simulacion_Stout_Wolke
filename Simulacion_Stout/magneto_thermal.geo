@@ -1,6 +1,6 @@
 // Propiedades Geometricas -----------------------------------------------------
 DefineConstant[
-  lc = {TotalMemory <= 2048 ? 0.0001 : 0.0001, Name "Mesh size"}
+  lc = {TotalMemory <= 2048 ? 0.001 : 0.001, Name "Mesh size"}
 ];
 lc2     = lc;
 lc3     = 0;
